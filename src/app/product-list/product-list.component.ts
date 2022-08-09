@@ -2,6 +2,20 @@ import { Component } from '@angular/core';
 
 import { products } from '../products';
 
+/*
+* The @Component() decorator indicates that the following class is a component.
+*
+* @Component() also provides metadata about the component, inlcuding its
+* selector, templates, and styles.
+*
+* The SELECTOR, APP-PRODUCT-LIST, identifies the component. By convention, 
+* Angular component SELECTOR begin with the prefix APP- followed by the component
+* name.
+* 
+* the TEMPLATE and STYLE filenames reference the component's HTML and CSS.
+*
+* the @Component() definition also exports the class, 
+*/
 @Component({
   selector: 'app-product-list',
   templateUrl: './product-list.component.html',
